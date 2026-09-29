@@ -1,3 +1,4 @@
+
 > ⚠️ **Projeto em Andamento / Em Construção** ⚠️
 > Este repositório está sendo construído ativamente como parte de um portfólio prático de QA. Novas funcionalidades, cenários de teste e códigos de automação são adicionados regularmente.
 
@@ -131,4 +132,8 @@ O projeto é gerenciado com base nas seguintes entregas (**User Stories**) e mar
 ## Autor
 
 Desenvolvido por **Raphael D' Assunção Coelho** como parte do portfólio de evolução profissional em QA.
+
+=======
+# case-serverest-qa
+Case prático de QA cobrindo testes manuais, estratégia, API, SQL e automação com Cypress na ServeRest
 

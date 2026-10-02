@@ -1,3 +1,4 @@
+# servereste2e
 
 > ⚠️ **Projeto em Andamento / Em Construção** ⚠️
 > Este repositório está sendo construído ativamente como parte de um portfólio prático de QA. Novas funcionalidades, cenários de teste e códigos de automação são adicionados regularmente.

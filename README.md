@@ -1,54 +1,75 @@
 # servereste2e
 
-> ⚠️ **Projeto em Andamento / Em Construção** ⚠️
+# Case ServeRest - Automação e Qualidade de Software (QA Portfolio)
+
+> **Projeto em andamento / em construção**
+>
 > Este repositório está sendo construído ativamente como parte de um portfólio prático de QA. Novas funcionalidades, cenários de teste e códigos de automação são adicionados regularmente.
 
-# 🧪 Case ServeRest - Automação e Qualidade de Software (QA Portfolio)
+## Sobre o Projeto
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js\&logoColor=white)](https://nodejs.org/)
-[![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge\&logo=cypress\&logoColor=white)](https://www.cypress.io/)
-[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white)](https://www.postman.com/)
-[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)](https://www.w3schools.com/sql/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/)
-[![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge\&logo=visual-studio-code\&logoColor=white)](https://code.visualstudio.com/)
+Repositório dedicado à demonstração de competências em **Quality Assurance (QA)**, abrangendo:
 
-Repositório dedicado à demonstração de competências em **Garantia da Qualidade (QA)**, abrangendo testes manuais exploratórios, planejamento de cenários, automação de testes E2E com Cypress, testes de API e validações de banco de dados.
-
----
-
-##  Sobre o Projeto
+* Testes manuais exploratórios
+* Planejamento de cenários de teste
+* Automação de testes E2E com Cypress
+* Testes de API
+* Validações de banco de dados
+* Documentação técnica
+* Estratégia de testes
 
 O projeto tem como alvo a aplicação **ServeRest**, uma API e interface de e-commerce voltada para testes de software.
 
-O objetivo é aplicar uma estratégia de **Quality Assurance de ponta a ponta**, cobrindo o ciclo de vida da qualidade e a documentação técnica.
+O objetivo é aplicar uma estratégia de **Quality Assurance de ponta a ponta**, cobrindo diferentes etapas do ciclo de vida da qualidade e da documentação técnica.
 
 ---
 
-##  Tecnologias e Ferramentas Utilizadas
+## Escopo e Limitações do Projeto
+
+### Módulos Validados (In-Scope)
+
+| Módulo               | Descrição                                          |
+| -------------------- | -------------------------------------------------- |
+| Autenticação (Login) | Geração de token JWT e validação de credenciais    |
+| Cadastro de Usuários | Regras de negócio, unicidade de e-mail e perfis    |
+| Produtos             | Gestão completa do catálogo de itens               |
+| Carrinho de Compras  | Adição de produtos e validação de itens vinculados |
+
+### Limitações Conhecidas (Out of Scope)
+
+#### Checkout / Pagamento
+
+A funcionalidade de finalização de compra e fechamento de pedido encontra-se atualmente em construção no ambiente simulado do ServeRest.
+
+Por esse motivo, os testes de ponta a ponta (E2E) focados estritamente na transação final de pagamento estão explicitamente excluídos deste escopo e são tratados como uma **limitação conhecida da aplicação simulada**.
+
+---
+
+## Tecnologias e Ferramentas Utilizadas
 
 | Tecnologia/Ferramenta | Utilização                               |
 | --------------------- | ---------------------------------------- |
-| **JavaScript**        | Linguagem utilizada no projeto           |
-| **Node.js**           | Ambiente de execução                     |
-| **Cypress**           | Automação de testes E2E e API            |
-| **Postman**           | Testes de API manuais                    |
-| **SQL**               | Consultas e validações de banco de dados |
-| **Git**               | Controle de versão                       |
-| **GitHub**            | Hospedagem do repositório                |
-| **VS Code**           | Ambiente de desenvolvimento              |
+| JavaScript            | Linguagem utilizada no projeto           |
+| Node.js               | Ambiente de execução                     |
+| Cypress               | Automação de testes E2E e API            |
+| Postman               | Testes de API manuais                    |
+| SQL                   | Consultas e validações de banco de dados |
+| Git                   | Controle de versão                       |
+| GitHub                | Hospedagem do repositório                |
+| VS Code               | Ambiente de desenvolvimento              |
 
 ---
 
-## ⚙️ Pré-requisitos e Instalação
+## Pré-requisitos e Instalação
 
-Para rodar este projeto e a aplicação alvo (**ServeRest**) localmente, você precisará ter instalado:
+Para executar este projeto e a aplicação alvo (ServeRest) localmente, é necessário ter instalado:
 
 * [Node.js](https://nodejs.org/) — versão LTS recomendada
 * [Git](https://git-scm.com/)
 
-### 📥 Clonando o Repositório
+---
+
+## Clonando o Repositório
 
 Clone este repositório utilizando:
 
@@ -62,9 +83,11 @@ Em seguida, acesse a pasta do projeto:
 cd qa-portfolio-serverest
 ```
 
-## ⚙️ Configuração e Execução
+---
 
-### 📦 Instalação das Dependências
+## Configuração e Execução
+
+### Instalação das Dependências
 
 Instale as dependências do projeto:
 
@@ -72,7 +95,7 @@ Instale as dependências do projeto:
 npm install
 ```
 
-### 🚀 Execução da Aplicação ServeRest
+### Execução da Aplicação ServeRest
 
 Execute a aplicação ServeRest localmente utilizando:
 
@@ -82,13 +105,11 @@ npx serverest
 
 O servidor será iniciado em:
 
-```text
 http://localhost:3000
-```
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 qa-portfolio-serverest/
@@ -116,17 +137,17 @@ qa-portfolio-serverest/
 
 ## Backlog e Planejamento de Execução
 
-O projeto é gerenciado com base nas seguintes entregas (**User Stories**) e marcos de qualidade:
+O projeto é gerenciado com base nas seguintes entregas (User Stories) e marcos de qualidade:
 
-| ID        | Épico / Módulo              | Tarefa / User Story (US)                                       | Status          |
-| --------- | --------------------------- | -------------------------------------------------------------- | --------------- |
-| **US-01** | Configuração e Planejamento | Setup do Ambiente Local ServeRest                              | ✅ Concluído     |
-| **US-02** | Configuração e Planejamento | Documento de Estratégia, Requisitos e Mapeamento de Cenários   | 🔄 Em Andamento |
-| **US-03** | Qualidade Manual e Defeitos | Execução de Testes Manuais (Exploratórios) e Relatório de Bugs | ⏳ A Fazer       |
-| **US-04** | Testes de API e Dados       | Criação de Validações de API e Contrato no Postman             | ⏳ A Fazer       |
-| **US-05** | Testes de API e Dados       | Validação e Investigação de Persistência via SQL               | ⏳ A Fazer       |
-| **US-06** | Automação e CI/CD           | Automação de Fluxos Críticos com Cypress (UI + API)            | ⏳ A Fazer       |
-| **US-07** | Automação e CI/CD           | Configuração de Pipeline de CI/CD (GitHub Actions)             | ⏳ A Fazer       |
+| ID    | Épico / Módulo              | Tarefa / User Story (US)                                       | Status    |
+| ----- | --------------------------- | -------------------------------------------------------------- | --------- |
+| US-01 | Configuração e Planejamento | Setup do Ambiente Local ServeRest                              | Concluído |
+| US-02 | Configuração e Planejamento | Documento de Estratégia, Requisitos e Mapeamento de Cenários   | Concluído |
+| US-03 | Qualidade Manual e Defeitos | Execução de Testes Manuais (Exploratórios) e Relatório de Bugs | A Fazer   |
+| US-04 | Testes de API e Dados       | Criação de Validações de API e Contrato no Postman             | A Fazer   |
+| US-05 | Testes de API e Dados       | Validação e Investigação de Persistência via SQL               | A Fazer   |
+| US-06 | Automação e CI/CD           | Automação de Fluxos Críticos com Cypress (UI + API)            | A Fazer   |
+| US-07 | Automação e CI/CD           | Configuração de Pipeline de CI/CD (GitHub Actions)             | A Fazer   |
 
 ---
 
@@ -134,7 +155,13 @@ O projeto é gerenciado com base nas seguintes entregas (**User Stories**) e mar
 
 Desenvolvido por **Raphael D' Assunção Coelho** como parte do portfólio de evolução profissional em QA.
 
-=======
-# case-serverest-qa
-Case prático de QA cobrindo testes manuais, estratégia, API, SQL e automação com Cypress na ServeRest
+Case prático de QA cobrindo:
 
+* Testes manuais
+* Estratégia de testes
+* Testes de API
+* SQL
+* Automação com Cypress
+* ServeRest
+* Documentação técnica
+* Práticas de qualidade de software
